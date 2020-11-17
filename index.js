@@ -1,5 +1,5 @@
 var icon = './img/system.jpg';
-GDT.addPlatform({
+/*GDT.addPlatform({
 	id : 'test-Platform',
 	name : 'Test System',
 	company : 'Empty',
@@ -13,10 +13,9 @@ GDT.addPlatform({
 	audienceWeightings : [0.9, 1, 0.8],
 	techLevel : 4,
 	iconUri : icon
-});
+});*/
 GDT.addEvent({
   id: 12412512525125,
-  date: '1/1/4'
   getNotification: function (company) {
 		var game = company.currentGame;
 
@@ -30,6 +29,7 @@ GDT.addEvent({
 		company.adjustHype(5 + 10 * company.getRandom());//increase hype between 5 and 15.
 
 		return new Notification({
+      date: '1/1/4',
 			sourceId: eventId,//this is important, otherwise nothing will happen when the player selects an option.
 			header: "Billy, the kid".localize(),//granted, this is a silly header.
 			text: msg,
