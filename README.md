@@ -6,4 +6,5 @@ As the name implies, this is an expansion mod for Game Dev Tycoon. It is still i
 
 ## Version History
 * 0.0.1
-  * Added placeholder Image
+  * Testing adding a system
+  * Added placeholder logo image
