@@ -1,0 +1,10 @@
+{
+	"id": "expansion-mod",
+	"name": "Expansion Mod",
+	"version": "0.0.1",
+	"author": "mamamia5x",
+	"url": "https://github.com/mamamia5x/Expansion-Mod",
+	"description": "An expansion mod for Game Dev Tycoon",
+	"main": "./index.js",
+	"image": "./img/logo.png"
+}
